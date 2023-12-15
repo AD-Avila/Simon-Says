@@ -5,6 +5,64 @@
       body {
         background-color: beige;
       }
+
+      .toggle {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      .button {
+        background-color: lightgray;
+        border-radius: 40%;
+        border-color: black;
+        font-size: 30px;
+        font-family: Arial;
+        cursor: pointer;
+      }
+
+      #switches {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-display: bold;
+        margin-left: 19px;
+        margin-top: 80px;
+      }
+
+      .text1 {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 18px;
+        margin-top: 115px;
+      }
+
+      .text1 span:last-child {
+        padding-left: 80px;
+      }
+
+      .text2 {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 88px;
+        margin-top: 200px;
+      }
+
+      #turn {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: red;
+        background: #330000;
+        height: 40px;
+        width: 50px;
+        margin-left: 92px;
+        margin-top: 155px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+      }
+
       #outer-circle {
         background: #385a94;
         border-radius: 50%;
@@ -114,7 +172,6 @@
       <div id="bottomleft"></div>
       <div id="bottomright"></div>
       <div id="inner-circle">
-        <div id="title" class="font-effect-emboss">SIMON!</div>
         <div id="switches">
           <input type="checkbox" class="toggle" id="on">
           <button class="button" id="start">Start</button>
